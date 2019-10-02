@@ -102,3 +102,36 @@ nav a {
 nav a:visited {
   color: #9E5229;
 }
+
+.rocketContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.rocket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 1vh;
+  right: 10vw;
+  cursor: pointer;
+  transition: transform 2500ms cubic-bezier(0.41, 0.04, 0.84, 0.31);
+  height: 500px;
+}
+
+.rocket:active {
+  transform: translate(0, -1000px);
+}
+
+.instructions {
+  position: absolute;
+  left: 69.25vw;
+  bottom: 6vw;
+  padding: 5px;
+  font-size: 15px;
+  color: #723B1D;
+  border: 1px solid #723B1D;
+}
