@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    position: absolute;
+    left: calc(50vw - 110px);
+    top: 34.5vh;
+    margin: 0;
+    color: white;
+}
+
+.contactCardContainer {
+    position: absolute;
+    top: calc(50vh - 90px);
+    left: calc(50vw - 110px);
+    height: 180px;
+    width: 600px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AABFA0;
+    border-radius: 12px;
+}
+
+.contactLine {
+    margin: 0 0 1px 18px;
+    height: 112px;
+    width: 1px;
+    background-color: rgb(219, 238, 217, .45);
+}
+
+.contactInfo {
+    height: 120px;
+}
+
+.contactInfo span {
+    display: block;
+    margin: 8px 265px 25px 20px;
+    color: #65422A;
+}

@@ -1,0 +1,38 @@
+.projectsButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw - 340px);
+    height: 100vh;
+    position: absolute;
+    left: 340px;
+}
+
+button {
+    height: 190px;
+    width: 380px;
+    background-color: #8d8fce;
+    color: white;
+    border: 2px solid #8d8fce;
+    border-radius: 20px;
+    margin: 0px 46px;
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 76px;
+    width: 76px;
+    margin-bottom: 9px;
+    border-radius: 8px;
+}
+
+span {
+    width: 76px;
+    padding: 5px 0;
+    border-top: 1px solid white;
+    font-size: 15px;
+}
