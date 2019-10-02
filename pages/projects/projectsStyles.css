@@ -24,10 +24,13 @@ button {
 }
 
 img {
-    height: 76px;
-    width: 76px;
+    height: 72px;
+    width: 72px;
     margin-bottom: 9px;
-    border-radius: 8px;
+}
+
+.swimmingImage {
+    border-radius: 12px;
 }
 
 span {
